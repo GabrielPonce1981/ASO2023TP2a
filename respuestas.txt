@@ -1,0 +1,4 @@
+1)¿Que problemas se pueden ver a simple vista?
+El problema que se ve a simple vista es que el hilo 0 se come todas las hamburguesas y no da paso a que el hilo 1 se ejecute.
+2) ¿Qué nombre se le dá a esta falla que ocurre en el código que provoca que cada ejecución presente resultados diferentes?
+A este problema se le denomina "race condition" o "condición de carrera", esto sucede cuando el resultado de ejecución es dependiente de una secuencia de eventos que se ejecutan en orden arbitrario y van a trabajar sobre un mismo recurso compartido.
